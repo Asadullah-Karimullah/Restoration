@@ -403,7 +403,6 @@ p{
     bottom: 50%; */
     height: 50vh;
 
-
 }
 
 #services #service_item1{
@@ -777,6 +776,18 @@ background-image: url(images/garage2.jpg);
         padding-left: 20px;
     }
 
+    /* project */
+
+    #services .service-bottom .project_item{
+        flex-basis: 45%;
+        margin: 2.5%;
+
+    }
+
+    
+
+    /* end of project */
+
 
 }
 
@@ -812,10 +823,23 @@ background-image: url(images/garage2.jpg);
 
 
     #services .service-bottom .service-item{
+        flex-basis: 30%;
+        margin: 1.5%;
+    }
+
+
+    /* Project section */
+
+    #services .service-bottom .project_item{
         flex-basis: 22%;
         margin: 1.5%;
     }
 
+
+
+
+
+    /* End of Project section */
 
 
 
@@ -837,3 +861,57 @@ background-image: url(images/garage2.jpg);
         transform: scale(1.5);
     }
 }
+
+
+
+
+/* Project Section  */
+
+.project_item #project_item1{
+    background-image: url(images/building3.jpg);
+}
+
+.project_item #project_item2{
+    background-image: url(images/niagara1.JPG);
+}
+
+.project_item #project_item3{
+    background-image: url(images/pool.jpg);
+}
+
+.project_item #project_item4{
+    background-image: url(images/building5.jpg);
+}
+
+#services .project-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    /* top: 50%;
+    bottom: 50%; */
+    height: 50vh;
+}
+
+.project_item{
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+/* End of Project Section  */
